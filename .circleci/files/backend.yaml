@@ -28,6 +28,7 @@ Resources:
       InstanceType: t3.medium
       SecurityGroups:
         - Ref: InstanceSecurityGroup
+      KeyName: udacity-test
       ImageId: ami-061dbd1209944525c
       Tags:
         - Key: Name
